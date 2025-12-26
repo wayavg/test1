@@ -80,6 +80,21 @@ module.exports = {
       filename: './index.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/responsive.html',
+      filename: './responsive.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/cover.html',
+      filename: './cover.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/grid.html',
+      filename: './grid.html'
+    }),
+
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
